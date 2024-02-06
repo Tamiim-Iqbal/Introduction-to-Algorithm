@@ -11,8 +11,8 @@ bool valid (int i, int j)
 }
 void dfs (int si, int sj)
 {
-    cout<<si<<" "<<sj<<endl;
-    //cout<<a[si][sj]<<" ";
+    //cout<<si<<" "<<sj<<endl;
+    cout<<a[si][sj]<<" ";
     vis[si][sj]=true;
     for(int i=0; i<4; i++)
     {

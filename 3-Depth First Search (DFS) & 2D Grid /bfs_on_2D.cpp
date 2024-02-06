@@ -49,6 +49,6 @@ int main()
     memset(vis,false,sizeof(vis));
     memset(dis,-1,sizeof(dis));
     dfs(si,sj);
-    cout<<dis[2][3]<<endl;
+    //cout<<dis[2][3]<<endl;
     return 0;
 }
