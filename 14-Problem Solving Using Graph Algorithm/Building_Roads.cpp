@@ -54,6 +54,7 @@ int main()
     {
         leader.push_back(dsu_find(i));
     }
+    //for(int c:leader) cout<<c<<" ";
     sort(leader.begin(),leader.end());
     leader.erase(unique(leader.begin(),leader.end()),leader.end());
     cout<<leader.size()-1<<endl;
